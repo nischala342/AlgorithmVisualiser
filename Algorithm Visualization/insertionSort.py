@@ -8,6 +8,6 @@ def insertion_sort(data,drawData, timeTick):
             data[j + 1] = data[j]
             j -= 1
         data[j + 1] = key
-        drawData(data,['red' if x == i or x == j + 1 else 'pink' for x in range(len(data)) ])
+        drawData(data,['light blue' if x == i else 'pink' for x in range(len(data)) ])
         time.sleep(timeTick)
-    drawData(data,['red' for x in range(len(data))])
+    drawData(data,['light blue' for x in range(len(data))])

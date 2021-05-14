@@ -7,6 +7,6 @@ def selection_sort(data,drawData, timeTick):
             if data[min_index] > data[j]:
                 min_index = j
         data[i], data[min_index] = data[min_index], data[i]
-        drawData(data,['red' if x == i or x == min_index else 'pink' for x in range(len(data)) ])
+        drawData(data,['light blue' if x == i or x == min_index else 'pink' for x in range(len(data)) ])
         time.sleep(timeTick)
-    drawData(data,['red' for x in range(len(data))])
+    drawData(data,['light blue' for x in range(len(data))])
