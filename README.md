@@ -1,0 +1,2 @@
+# AlgorithmVisualiser
+It is easy to process visuals rather than lines of codes. This project, made with Tkinter, helps you visualise various sorting algorithms like Bubble Sort, Insertion Sort, Selection Sort, Quick sort and Merge Sort. The approach is to generate random length bar graphs in the given range and length by the user and different colors are used for the indication of elements compared and sorted. 
